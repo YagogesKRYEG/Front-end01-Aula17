@@ -1,0 +1,37 @@
+*{  
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.box-azul{
+    margin-top: 30px;
+    width: 400px;
+    border-radius: 10px;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(44, 44, 239);
+}
+
+label{
+    display: block;
+}
+
+.item-formlario{
+margin: 20px 0;
+}
+
+input{
+    background-color: white;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    padding: 20px;
+}
+input:hover{
+    background-color: red;
+}
